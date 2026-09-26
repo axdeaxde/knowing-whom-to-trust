@@ -1,0 +1,62 @@
+{
+  "V_H": [
+    "accurate",
+    "trusting",
+    "mixed",
+    "consistent",
+    "conservative",
+    "reliable",
+    "unlucky",
+    "helpful",
+    "trustworthy",
+    "honest",
+    "reluctant",
+    "truthful",
+    "biased",
+    "tricky"
+  ],
+  "V_L": [
+    "relentless",
+    "misleading",
+    "inconsistent",
+    "untrustworthy",
+    "incorrect",
+    "unreliable",
+    "dishonest",
+    "deceptive",
+    "deceitful",
+    "untruthful",
+    "disingenuous"
+  ],
+  "selection": {
+    "min_abs_cohens_d": 0.3,
+    "bootstrap_sign_rate": 0.9,
+    "median_boundary_probability": 0.8,
+    "min_template_top20_rate": 0.025,
+    "bootstrap_repeats": 2000
+  },
+  "development_runs": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19
+  ],
+  "rank_universe": "all WordNet-form-eligible candidates; diagnostics excluded",
+  "polarity": "Supervised high/low history association, not semantic valence labels"
+}

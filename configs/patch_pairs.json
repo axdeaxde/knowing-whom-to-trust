@@ -1,0 +1,282 @@
+[
+  {
+    "pair_id": 0,
+    "advisor_id": "Participant B6J",
+    "target_run": 21,
+    "source_run": 25,
+    "target_label": 1,
+    "source_label": 0,
+    "match_score": [
+      2,
+      853,
+      21,
+      25
+    ]
+  },
+  {
+    "pair_id": 0,
+    "advisor_id": "Participant B6J",
+    "target_run": 25,
+    "source_run": 21,
+    "target_label": 0,
+    "source_label": 1,
+    "match_score": [
+      2,
+      853,
+      21,
+      25
+    ]
+  },
+  {
+    "pair_id": 1,
+    "advisor_id": "Participant B6J",
+    "target_run": 22,
+    "source_run": 29,
+    "target_label": 1,
+    "source_label": 0,
+    "match_score": [
+      2,
+      1130,
+      22,
+      29
+    ]
+  },
+  {
+    "pair_id": 1,
+    "advisor_id": "Participant B6J",
+    "target_run": 29,
+    "source_run": 22,
+    "target_label": 0,
+    "source_label": 1,
+    "match_score": [
+      2,
+      1130,
+      22,
+      29
+    ]
+  },
+  {
+    "pair_id": 2,
+    "advisor_id": "Participant E9H",
+    "target_run": 22,
+    "source_run": 28,
+    "target_label": 1,
+    "source_label": 0,
+    "match_score": [
+      0,
+      599,
+      22,
+      28
+    ]
+  },
+  {
+    "pair_id": 2,
+    "advisor_id": "Participant E9H",
+    "target_run": 28,
+    "source_run": 22,
+    "target_label": 0,
+    "source_label": 1,
+    "match_score": [
+      0,
+      599,
+      22,
+      28
+    ]
+  },
+  {
+    "pair_id": 3,
+    "advisor_id": "Participant E9H",
+    "target_run": 21,
+    "source_run": 28,
+    "target_label": 1,
+    "source_label": 0,
+    "match_score": [
+      1,
+      929,
+      21,
+      28
+    ]
+  },
+  {
+    "pair_id": 3,
+    "advisor_id": "Participant E9H",
+    "target_run": 28,
+    "source_run": 21,
+    "target_label": 0,
+    "source_label": 1,
+    "match_score": [
+      1,
+      929,
+      21,
+      28
+    ]
+  },
+  {
+    "pair_id": 4,
+    "advisor_id": "Participant M5X",
+    "target_run": 23,
+    "source_run": 27,
+    "target_label": 0,
+    "source_label": 1,
+    "match_score": [
+      2,
+      5437,
+      23,
+      27
+    ]
+  },
+  {
+    "pair_id": 4,
+    "advisor_id": "Participant M5X",
+    "target_run": 27,
+    "source_run": 23,
+    "target_label": 1,
+    "source_label": 0,
+    "match_score": [
+      2,
+      5437,
+      23,
+      27
+    ]
+  },
+  {
+    "pair_id": 5,
+    "advisor_id": "Participant M5X",
+    "target_run": 23,
+    "source_run": 25,
+    "target_label": 0,
+    "source_label": 1,
+    "match_score": [
+      3,
+      2127,
+      23,
+      25
+    ]
+  },
+  {
+    "pair_id": 5,
+    "advisor_id": "Participant M5X",
+    "target_run": 25,
+    "source_run": 23,
+    "target_label": 1,
+    "source_label": 0,
+    "match_score": [
+      3,
+      2127,
+      23,
+      25
+    ]
+  },
+  {
+    "pair_id": 6,
+    "advisor_id": "Participant U3D",
+    "target_run": 20,
+    "source_run": 27,
+    "target_label": 0,
+    "source_label": 1,
+    "match_score": [
+      2,
+      3200,
+      20,
+      27
+    ]
+  },
+  {
+    "pair_id": 6,
+    "advisor_id": "Participant U3D",
+    "target_run": 27,
+    "source_run": 20,
+    "target_label": 1,
+    "source_label": 0,
+    "match_score": [
+      2,
+      3200,
+      20,
+      27
+    ]
+  },
+  {
+    "pair_id": 7,
+    "advisor_id": "Participant U3D",
+    "target_run": 20,
+    "source_run": 26,
+    "target_label": 0,
+    "source_label": 1,
+    "match_score": [
+      2,
+      3733,
+      20,
+      26
+    ]
+  },
+  {
+    "pair_id": 7,
+    "advisor_id": "Participant U3D",
+    "target_run": 26,
+    "source_run": 20,
+    "target_label": 1,
+    "source_label": 0,
+    "match_score": [
+      2,
+      3733,
+      20,
+      26
+    ]
+  },
+  {
+    "pair_id": 8,
+    "advisor_id": "Participant B6J",
+    "target_run": 20,
+    "source_run": 29,
+    "target_label": 1,
+    "source_label": 0,
+    "match_score": [
+      2,
+      4971,
+      20,
+      29
+    ]
+  },
+  {
+    "pair_id": 8,
+    "advisor_id": "Participant B6J",
+    "target_run": 29,
+    "source_run": 20,
+    "target_label": 0,
+    "source_label": 1,
+    "match_score": [
+      2,
+      4971,
+      20,
+      29
+    ]
+  },
+  {
+    "pair_id": 9,
+    "advisor_id": "Participant B6J",
+    "target_run": 21,
+    "source_run": 27,
+    "target_label": 1,
+    "source_label": 0,
+    "match_score": [
+      2,
+      6711,
+      21,
+      27
+    ]
+  },
+  {
+    "pair_id": 9,
+    "advisor_id": "Participant B6J",
+    "target_run": 27,
+    "source_run": 21,
+    "target_label": 0,
+    "source_label": 1,
+    "match_score": [
+      2,
+      6711,
+      21,
+      27
+    ]
+  }
+]

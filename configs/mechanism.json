@@ -1,0 +1,119 @@
+{
+  "seed": 20260923,
+  "split": {
+    "development_runs": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19
+    ],
+    "heldout_runs": [
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29
+    ]
+  },
+  "templates": {
+    "template_1": "Based on the interaction so far, give exactly one English adjective that best characterizes {advisor_id}'s performance when providing information. Output one word only.",
+    "template_2": "Based only on the previous interaction, complete this description:\n{advisor_id} has been ______.\nOutput one English adjective only."
+  },
+  "generation": {
+    "max_new_tokens": 8,
+    "do_sample": true,
+    "temperature": 1.0,
+    "top_p": 0.95,
+    "top_k": 20,
+    "presence_penalty": 1.5,
+    "repetition_penalty": 1.0
+  },
+  "search": {
+    "natural_samples": 6,
+    "max_word_tokens": 4,
+    "wordlist_size": 100000,
+    "trie_size": 30000,
+    "beam_width": 8,
+    "branch_top_k": 8,
+    "recursive_frontier": 16,
+    "best_first_expansions": 64,
+    "candidate_cap": 32
+  },
+  "scoring": {
+    "batch_size": 8,
+    "suffixes": [
+      "",
+      " ",
+      "\n",
+      "\n\n",
+      ".",
+      ".\n",
+      "!",
+      "!\n",
+      "?",
+      "?\n"
+    ],
+    "cache_full_logp_tolerance": 0.2
+  },
+  "selection": {
+    "min_abs_cohens_d": 0.3,
+    "bootstrap_sign_rate": 0.9,
+    "median_boundary_probability": 0.8,
+    "min_template_top20_rate": 0.025,
+    "bootstrap_repeats": 2000
+  },
+  "probe": {
+    "coarse_layers": [
+      0,
+      8,
+      16,
+      24,
+      32,
+      40,
+      48,
+      56,
+      63
+    ],
+    "c_grid": [
+      0.0001,
+      0.001,
+      0.01,
+      0.1,
+      1.0,
+      10.0
+    ],
+    "ridge_grid": [
+      0.1,
+      1.0,
+      10.0,
+      100.0,
+      1000.0
+    ],
+    "permutation_repeats": 1000
+  },
+  "model": {
+    "path": "SET_LOCAL_MODEL_PATH",
+    "enable_thinking": false
+  }
+}

@@ -1,0 +1,13 @@
+-r requirements-analysis.txt
+PyYAML==6.0.2
+accelerate
+safetensors
+sentencepiece
+protobuf
+wordfreq
+nltk
+# Install the appropriate CUDA PyTorch and transformers versions separately;
+# recorded per-model versions are in configs/runtime_versions.json.
+# Qwen27B / Gemma31B original behavior: torch 2.12.0+cu130, transformers 5.8.1.
+# Extended behavior: torch 2.12.0+cu130, transformers 5.17.0.
+# Qwen mechanistic runtime: see configs/mechanism_runtime.json.

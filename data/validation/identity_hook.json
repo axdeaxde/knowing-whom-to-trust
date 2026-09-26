@@ -1,0 +1,200 @@
+[
+  {
+    "run_id": 0,
+    "readout": "verbalizer",
+    "advisor_id": "Participant B6J",
+    "input_tokens": 26420,
+    "cache_branch_order_equal": true,
+    "deep_copy_alias_free": true,
+    "cleanup": true,
+    "identity_and_zero": [
+      {
+        "position": "query_id",
+        "layer": 43,
+        "operation": "identity",
+        "max_abs_logp_error": 0.0,
+        "write_audit": {
+          "relative_l2": 0.0,
+          "achieved_l2": 0.0,
+          "calls": 1
+        }
+      },
+      {
+        "position": "query_id",
+        "layer": 43,
+        "operation": "zero_steer",
+        "max_abs_logp_error": 0.0,
+        "write_audit": {
+          "relative_l2": 0.0,
+          "achieved_l2": 0.0,
+          "calls": 1
+        }
+      }
+    ]
+  },
+  {
+    "run_id": 0,
+    "readout": "tg",
+    "advisor_id": "Participant B6J",
+    "input_tokens": 26709,
+    "cache_branch_order_equal": true,
+    "deep_copy_alias_free": true,
+    "cleanup": true,
+    "identity_and_zero": [
+      {
+        "position": "query_id",
+        "layer": 43,
+        "operation": "identity",
+        "max_abs_logp_error": 0.0,
+        "write_audit": {
+          "relative_l2": 0.0,
+          "achieved_l2": 0.0,
+          "calls": 1
+        }
+      },
+      {
+        "position": "query_id",
+        "layer": 43,
+        "operation": "zero_steer",
+        "max_abs_logp_error": 0.0,
+        "write_audit": {
+          "relative_l2": 0.0,
+          "achieved_l2": 0.0,
+          "calls": 1
+        }
+      }
+    ]
+  },
+  {
+    "run_id": 0,
+    "readout": "conflict",
+    "advisor_id": "Participant M5X",
+    "input_tokens": 26496,
+    "cache_branch_order_equal": true,
+    "deep_copy_alias_free": true,
+    "cleanup": true,
+    "identity_and_zero": [
+      {
+        "position": "query_id",
+        "layer": 43,
+        "operation": "identity",
+        "max_abs_logp_error": 0.0,
+        "write_audit": {
+          "relative_l2": 0.0,
+          "achieved_l2": 0.0,
+          "calls": 1
+        }
+      },
+      {
+        "position": "query_id",
+        "layer": 43,
+        "operation": "zero_steer",
+        "max_abs_logp_error": 0.0,
+        "write_audit": {
+          "relative_l2": 0.0,
+          "achieved_l2": 0.0,
+          "calls": 1
+        }
+      }
+    ]
+  },
+  {
+    "run_id": 1,
+    "readout": "verbalizer",
+    "advisor_id": "Participant B6J",
+    "input_tokens": 19988,
+    "cache_branch_order_equal": true,
+    "deep_copy_alias_free": true,
+    "cleanup": true,
+    "identity_and_zero": [
+      {
+        "position": "query_id",
+        "layer": 43,
+        "operation": "identity",
+        "max_abs_logp_error": 0.0,
+        "write_audit": {
+          "relative_l2": 0.0,
+          "achieved_l2": 0.0,
+          "calls": 1
+        }
+      },
+      {
+        "position": "query_id",
+        "layer": 43,
+        "operation": "zero_steer",
+        "max_abs_logp_error": 0.0,
+        "write_audit": {
+          "relative_l2": 0.0,
+          "achieved_l2": 0.0,
+          "calls": 1
+        }
+      }
+    ]
+  },
+  {
+    "run_id": 1,
+    "readout": "tg",
+    "advisor_id": "Participant E9H",
+    "input_tokens": 20277,
+    "cache_branch_order_equal": true,
+    "deep_copy_alias_free": true,
+    "cleanup": true,
+    "identity_and_zero": [
+      {
+        "position": "query_id",
+        "layer": 43,
+        "operation": "identity",
+        "max_abs_logp_error": 0.0,
+        "write_audit": {
+          "relative_l2": 0.0,
+          "achieved_l2": 0.0,
+          "calls": 1
+        }
+      },
+      {
+        "position": "query_id",
+        "layer": 43,
+        "operation": "zero_steer",
+        "max_abs_logp_error": 0.0,
+        "write_audit": {
+          "relative_l2": 0.0,
+          "achieved_l2": 0.0,
+          "calls": 1
+        }
+      }
+    ]
+  },
+  {
+    "run_id": 1,
+    "readout": "conflict",
+    "advisor_id": "Participant B6J",
+    "input_tokens": 20064,
+    "cache_branch_order_equal": true,
+    "deep_copy_alias_free": true,
+    "cleanup": true,
+    "identity_and_zero": [
+      {
+        "position": "query_id",
+        "layer": 43,
+        "operation": "identity",
+        "max_abs_logp_error": 0.0,
+        "write_audit": {
+          "relative_l2": 0.0,
+          "achieved_l2": 0.0,
+          "calls": 1
+        }
+      },
+      {
+        "position": "query_id",
+        "layer": 43,
+        "operation": "zero_steer",
+        "max_abs_logp_error": 0.0,
+        "write_audit": {
+          "relative_l2": 0.0,
+          "achieved_l2": 0.0,
+          "calls": 1
+        }
+      }
+    ]
+  }
+]

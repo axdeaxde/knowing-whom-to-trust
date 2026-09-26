@@ -1,0 +1,15 @@
+{
+  "title": "Knowing Whom to Trust: Reliability States and Information Use in Large Language Models",
+  "manuscript_sha256": "36221b8f143edb1ed0ac2387e3ad0d45fb3a7e0c37d7a068fb5cb7ee4a51a5cb",
+  "scope": "Eight-model main-text behavioral cohort and Qwen3.5-27B representation/intervention results; no protocol-development outcomes.",
+  "behavior_models": [
+    "gpt55",
+    "gemini25flash",
+    "gemma31b",
+    "qwen27b",
+    "ministral14b",
+    "sonnet5",
+    "deepseek_flash",
+    "qwen35b"
+  ]
+}

@@ -1,0 +1,190 @@
+{
+  "run_ids": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23,
+    24,
+    25,
+    26,
+    27,
+    28,
+    29
+  ],
+  "models": {
+    "qwen27b": {
+      "label": "Qwen3.5-27B",
+      "backend": "qwen",
+      "temperature": 1.0,
+      "top_p": 0.95,
+      "top_k": 20,
+      "min_p": 0.0,
+      "presence_penalty": 1.5,
+      "repetition_penalty": 1.0,
+      "max_memory_per_gpu": "45GiB",
+      "adapter": "core",
+      "run_settings": {
+        "max_parse_attempts": 3,
+        "sampling_seed_base": 260922271,
+        "max_new_tokens": 4096
+      },
+      "model_path": "SET_LOCAL_MODEL_PATH",
+      "gpus": "0,1"
+    },
+    "gemma31b": {
+      "label": "Gemma-4-31B-it",
+      "backend": "gemma",
+      "temperature": 1.0,
+      "top_p": 0.95,
+      "top_k": 64,
+      "presence_penalty": 0.0,
+      "repetition_penalty": 1.0,
+      "max_memory_per_gpu": "45GiB",
+      "adapter": "core",
+      "run_settings": {
+        "max_parse_attempts": 3,
+        "sampling_seed_base": 260922271,
+        "max_new_tokens": 4096
+      },
+      "model_path": "SET_LOCAL_MODEL_PATH",
+      "gpus": "0,1"
+    },
+    "ministral14b": {
+      "label": "Ministral-3-14B-Instruct-2512-BF16",
+      "repo_id": "mistralai/Ministral-3-14B-Instruct-2512-BF16",
+      "backend": "ministral",
+      "temperature": 0.05,
+      "top_p": 1.0,
+      "top_k": 0,
+      "presence_penalty": 0.0,
+      "repetition_penalty": 1.0,
+      "max_memory_per_gpu": "68GiB",
+      "adapter": "extended",
+      "run_settings": {
+        "max_parse_attempts": 3,
+        "sampling_seed_base": 260922271,
+        "max_new_tokens": 4096
+      },
+      "model_path": "SET_LOCAL_MODEL_PATH",
+      "gpus": "0,1"
+    },
+    "qwen35b": {
+      "label": "Qwen3.5-35B-A3B",
+      "repo_id": "Qwen/Qwen3.5-35B-A3B",
+      "backend": "qwen",
+      "temperature": 1.0,
+      "top_p": 0.95,
+      "top_k": 20,
+      "min_p": 0.0,
+      "presence_penalty": 1.5,
+      "repetition_penalty": 1.0,
+      "sampling_source": "Official Qwen3.5 non-thinking reasoning-task recommendation: temperature=1.0, top_p=0.95, top_k=20, presence_penalty=1.5. Neutral repetition_penalty=1 and min_p=0.",
+      "max_memory_per_gpu": "74GiB",
+      "adapter": "model_client",
+      "run_settings": {
+        "max_parse_attempts": 3,
+        "sampling_seed_base": 260922271,
+        "max_new_tokens": 4096
+      },
+      "model_path": "SET_LOCAL_MODEL_PATH",
+      "gpus": "0,1"
+    },
+    "gpt55": {
+      "label": "GPT-5.5",
+      "backend": "openai_api",
+      "sampling_source": "Explicit reasoning_effort=none; sampling controls omitted to use provider defaults, not claimed to be a task-specific official recommendation.",
+      "api_model": "gpt-5.5",
+      "request_settings": {
+        "reasoning_effort": "none"
+      },
+      "expected_response_model": "gpt-5.5-2026-04-24",
+      "adapter": "model_client",
+      "run_settings": {
+        "max_parse_attempts": 3,
+        "sampling_seed_base": 260922271,
+        "max_new_tokens": 4096
+      }
+    },
+    "sonnet5": {
+      "label": "Claude Sonnet 5",
+      "backend": "anthropic_api",
+      "sampling_source": "Explicit thinking disabled; temperature/top_p/top_k omitted in accordance with Sonnet 5 restrictions. Provider defaults are not task-specific recommendations.",
+      "api_model": "claude-sonnet-5",
+      "request_settings": {
+        "thinking": {
+          "type": "disabled"
+        }
+      },
+      "expected_response_model": "claude-sonnet-5",
+      "adapter": "model_client",
+      "run_settings": {
+        "max_parse_attempts": 3,
+        "sampling_seed_base": 260922271,
+        "max_new_tokens": 4096
+      }
+    },
+    "gemini25flash": {
+      "label": "Gemini 2.5 Flash",
+      "backend": "gemini_api",
+      "sampling_source": "Explicit thinkingBudget=0; sampling controls omitted to use provider defaults. Native generateContent route.",
+      "api_model": "gemini-2.5-flash",
+      "request_settings": {
+        "thinkingConfig": {
+          "thinkingBudget": 0
+        }
+      },
+      "expected_response_model": "gemini-2.5-flash",
+      "adapter": "model_client",
+      "run_settings": {
+        "max_parse_attempts": 3,
+        "sampling_seed_base": 260922271,
+        "max_new_tokens": 4096
+      }
+    },
+    "deepseek_flash": {
+      "label": "DeepSeek v4.1 Flash",
+      "backend": "deepseek_api",
+      "api_model": "deepseek-flash",
+      "request_settings": {
+        "model": "deepseek-flash",
+        "temperature": 1.0,
+        "top_p": 1.0,
+        "presence_penalty": 0.0,
+        "frequency_penalty": 0.0,
+        "thinking": {
+          "type": "disabled"
+        },
+        "max_tokens": 4096,
+        "stream": false
+      },
+      "run_settings": {
+        "max_parse_attempts": 3,
+        "sampling_seed_base": 260922271,
+        "max_new_tokens": 4096
+      }
+    }
+  },
+  "max_parse_attempts": 3,
+  "sampling_seed_base": 260922271,
+  "max_new_tokens": 4096
+}

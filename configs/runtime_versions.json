@@ -1,0 +1,227 @@
+{
+  "qwen27b": {
+    "model_label": "Qwen3.5-27B",
+    "model_class": "Qwen3_5ForCausalLM",
+    "torch": "2.12.0+cu130",
+    "transformers": "5.8.1",
+    "dtype": "torch.bfloat16",
+    "config_hashes": {
+      "config.json": "f8d190c5b89c1521220f935d2567a587d6e291ed69066a45a106560b05a2174c",
+      "generation_config.json": "303aba891d66ab63908a7b3cc9163bcb835fdf8b9f6301c73216f3f1eb3992dd",
+      "chat_template.jinja": "a4aee8afcf2e0711942cf848899be66016f8d14a889ff9ede07bca099c28f715",
+      "tokenizer_config.json": "316230d6a809701f4db5ea8f8fc862bc3a6f3229c937c174e674ff3ca0a64ac8",
+      "model.safetensors.index.json": "b3737e9d00bda0e37f0b873629d98bf9b407bef35735b9193c23d9844bcc96a6"
+    },
+    "chat_template_sha256": "a4aee8afcf2e0711942cf848899be66016f8d14a889ff9ede07bca099c28f715",
+    "generation": {
+      "max_new_tokens": 4096,
+      "do_sample": true,
+      "temperature": 1.0,
+      "top_p": 0.95,
+      "top_k": 20,
+      "repetition_penalty": 1.0,
+      "use_cache": true,
+      "logits_to_keep": 1,
+      "min_p": 0.0
+    },
+    "enable_thinking": false,
+    "attention_implementation": "sdpa"
+  },
+  "gemma31b": {
+    "model_label": "Gemma-4-31B-it",
+    "model_class": "Gemma4ForConditionalGeneration",
+    "torch": "2.12.0+cu130",
+    "transformers": "5.8.1",
+    "dtype": "torch.bfloat16",
+    "config_hashes": {
+      "config.json": "e967dd38bc5cfd38bd09a995a7bf4a754075df2b46aba68f7fbb5a791e6d8dd1",
+      "generation_config.json": "d4226bbe3117d2d253ba4609720ba82c6c4ce4627a9a6ae05387c78983ac03de",
+      "chat_template.jinja": "36e3a42e5cf14cd0020e72d92e1fdd9970f59b82170e421f0cbe1bb42bead3f0",
+      "tokenizer_config.json": "90c3a3ba5bf53818383a58e1a776cbcacd2a038d4812eaa373e1522f2d06f3df",
+      "model.safetensors.index.json": "d4aff3b976d69c123a29d1c085d7ba4de1ac3f4ca1726a7f81e1b11462a64ea2"
+    },
+    "chat_template_sha256": "36e3a42e5cf14cd0020e72d92e1fdd9970f59b82170e421f0cbe1bb42bead3f0",
+    "generation": {
+      "max_new_tokens": 4096,
+      "do_sample": true,
+      "temperature": 1.0,
+      "top_p": 0.95,
+      "top_k": 64,
+      "repetition_penalty": 1.0,
+      "use_cache": true,
+      "logits_to_keep": 1
+    },
+    "enable_thinking": false,
+    "attention_implementation": "sdpa",
+    "attention_execution": "global_head512_query256_math_sdpa"
+  },
+  "ministral14b": {
+    "model_label": "Ministral-3-14B-Instruct-2512-BF16",
+    "model_class": "Mistral3ForConditionalGeneration",
+    "torch": "2.12.0+cu130",
+    "transformers": "5.17.0",
+    "dtype": "torch.bfloat16",
+    "config_hashes": {
+      "config.json": "b1897778395bb1795489a048ebde2e6d216eee21014ce9c18193d15f097454a6",
+      "generation_config.json": "e0923390059f84a9180b00e5501778acc45ea9856cd7f2fd68208b360927c677",
+      "chat_template.jinja": "2f545122222db8bb43ca0ea0c49e9185320a8670f7d35575b0da0eb48b1e8970",
+      "tokenizer_config.json": "f59f7294e4f26383d0ea93840fe21cf197784be0842a8301a0343e8c34ed0d6d",
+      "model.safetensors.index.json": "50d07948f11d89b5eddc5fb21485484555376c0627a9537b37f3f17cc9f5a103"
+    },
+    "chat_template_sha256": "dc937b59892604f5a86ac96936cd7ff09e25f18ae6b758e8014a24c7fa039e91",
+    "generation": {
+      "max_new_tokens": 4096,
+      "do_sample": true,
+      "temperature": 0.05,
+      "top_p": 1.0,
+      "top_k": 0,
+      "repetition_penalty": 1.0,
+      "use_cache": true,
+      "logits_to_keep": 1
+    },
+    "enable_thinking": false,
+    "attention_implementation": "sdpa"
+  },
+  "qwen35b": {
+    "model_label": "Qwen3.5-35B-A3B",
+    "model_class": "Qwen3_5MoeForCausalLM",
+    "torch": "2.12.0+cu130",
+    "transformers": "5.17.0",
+    "dtype": "torch.bfloat16",
+    "config_hashes": {
+      "config.json": "5e4d7f74fec2f360eb9cfbfcd6ec0c4c76e684d3a11caaed259d9fd9bfbc7944",
+      "generation_config.json": "4f25002776b741773666203dcea8f54619f177ace3ae483d311102092a4658e0",
+      "chat_template.jinja": "a4aee8afcf2e0711942cf848899be66016f8d14a889ff9ede07bca099c28f715",
+      "tokenizer_config.json": "316230d6a809701f4db5ea8f8fc862bc3a6f3229c937c174e674ff3ca0a64ac8",
+      "model.safetensors.index.json": "d8d0b7ca4e61ae107e3e87a3ff21136b3ac7c789e64bb24267227ca804e04205"
+    },
+    "chat_template_sha256": "a4aee8afcf2e0711942cf848899be66016f8d14a889ff9ede07bca099c28f715",
+    "generation": {
+      "max_new_tokens": 4096,
+      "do_sample": true,
+      "temperature": 1.0,
+      "top_p": 0.95,
+      "top_k": 20,
+      "repetition_penalty": 1.0,
+      "use_cache": true,
+      "logits_to_keep": 1,
+      "min_p": 0.0
+    },
+    "enable_thinking": false,
+    "non_thinking_method": "explicit_chat_template_enable_thinking_false",
+    "sampling_source": "Official Qwen3.5 non-thinking reasoning-task recommendation: temperature=1.0, top_p=0.95, top_k=20, presence_penalty=1.5. Neutral repetition_penalty=1 and min_p=0.",
+    "attention_implementation": "sdpa",
+    "official_generation_config": {
+      "max_length": null,
+      "max_new_tokens": null,
+      "min_length": null,
+      "min_new_tokens": null,
+      "early_stopping": null,
+      "max_time": null,
+      "stop_strings": null,
+      "do_sample": true,
+      "num_beams": null,
+      "use_mtp": null,
+      "use_cache": null,
+      "cache_implementation": null,
+      "cache_config": null,
+      "max_cache_len": null,
+      "temperature": 1.0,
+      "top_k": 20,
+      "top_p": 0.95,
+      "min_p": null,
+      "top_h": null,
+      "typical_p": null,
+      "epsilon_cutoff": null,
+      "eta_cutoff": null,
+      "repetition_penalty": null,
+      "encoder_repetition_penalty": null,
+      "length_penalty": null,
+      "no_repeat_ngram_size": null,
+      "bad_words_ids": null,
+      "renormalize_logits": null,
+      "forced_bos_token_id": null,
+      "forced_eos_token_id": null,
+      "remove_invalid_values": null,
+      "exponential_decay_length_penalty": null,
+      "suppress_tokens": null,
+      "begin_suppress_tokens": null,
+      "sequence_bias": null,
+      "token_healing": null,
+      "guidance_scale": null,
+      "watermarking_config": null,
+      "num_return_sequences": null,
+      "output_attentions": null,
+      "output_hidden_states": null,
+      "output_scores": null,
+      "output_logits": null,
+      "return_dict_in_generate": null,
+      "pad_token_id": 248044,
+      "bos_token_id": 248044,
+      "eos_token_id": [
+        248046,
+        248044
+      ],
+      "encoder_no_repeat_ngram_size": null,
+      "decoder_start_token_id": null,
+      "is_assistant": null,
+      "num_assistant_tokens": null,
+      "num_assistant_tokens_schedule": null,
+      "assistant_confidence_threshold": null,
+      "prompt_lookup_num_tokens": null,
+      "max_matching_ngram_size": null,
+      "assistant_early_exit": null,
+      "assistant_lookbehind": null,
+      "target_lookbehind": null,
+      "assistant_ensemble_weight": null,
+      "speculation_type": null,
+      "compile_config": null,
+      "disable_compile": null,
+      "continuous_batching_config": null,
+      "low_memory": null,
+      "penalty_alpha": null,
+      "dola_layers": null,
+      "diversity_penalty": null,
+      "num_beam_groups": null,
+      "constraints": null,
+      "force_words_ids": null,
+      "prefill_chunk_size": null,
+      "_from_model_config": null,
+      "transformers_version": "5.17.0"
+    }
+  },
+  "gpt55": {
+    "model_label": "GPT-5.5",
+    "request_model": "gpt-5.5",
+    "expected_response_model": "gpt-5.5-2026-04-24",
+    "settings": {
+      "reasoning_effort": "none"
+    },
+    "enable_thinking": false,
+    "sampling_source": "Explicit reasoning_effort=none; sampling controls omitted to use provider defaults, not claimed to be a task-specific official recommendation."
+  },
+  "sonnet5": {
+    "model_label": "Claude Sonnet 5",
+    "request_model": "claude-sonnet-5",
+    "expected_response_model": "claude-sonnet-5",
+    "settings": {
+      "thinking": {
+        "type": "disabled"
+      }
+    },
+    "enable_thinking": false,
+    "sampling_source": "Explicit thinking disabled; temperature/top_p/top_k omitted in accordance with Sonnet 5 restrictions. Provider defaults are not task-specific recommendations."
+  },
+  "gemini25flash": {
+    "model_label": "Gemini 2.5 Flash",
+    "request_model": "gemini-2.5-flash",
+    "expected_response_model": "gemini-2.5-flash",
+    "settings": {
+      "thinkingConfig": {
+        "thinkingBudget": 0
+      }
+    },
+    "enable_thinking": false,
+    "sampling_source": "Explicit thinkingBudget=0; sampling controls omitted to use provider defaults. Native generateContent route."
+  }
+}

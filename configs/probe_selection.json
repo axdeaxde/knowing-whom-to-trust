@@ -1,0 +1,65 @@
+{
+  "split": {
+    "development_runs": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19
+    ],
+    "heldout_runs": [
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29
+    ]
+  },
+  "primary_template": "template_2",
+  "selection": {
+    "history_feedback_end": {
+      "logistic": {
+        "layer": 0,
+        "C": 0.001,
+        "stage": "coarse",
+        "development_auc": 0.6649999999999999
+      }
+    },
+    "query_id": {
+      "logistic": {
+        "layer": 62,
+        "C": 0.01,
+        "stage": "fine",
+        "development_auc": 0.74875
+      }
+    },
+    "query_end": {
+      "logistic": {
+        "layer": 53,
+        "C": 0.0001,
+        "stage": "fine",
+        "development_auc": 0.8056249999999999
+      }
+    }
+  }
+}
